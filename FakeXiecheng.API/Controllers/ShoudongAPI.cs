@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FakeXiecheng.API.Controllers
 {
-    [Route("api/shoudongapi"]
+    [Route("api/shoudongapi")]
     //[Controller]
     //public class ShoudongAPIController :
     public class ShoudongAPI:Controller
