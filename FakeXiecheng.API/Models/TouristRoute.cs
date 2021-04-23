@@ -33,5 +33,8 @@ namespace FakeXiecheng.API.Models
         //一条旅游路线可以有多张旅游图片，为1对N关系
         public ICollection<TouristRoutePicture> TouristRoutePictures { get; set; } 
             = new List<TouristRoutePicture>();//这一步是为了让代码更健壮避免一些未知错误
+        public TravelDays? TravelDays { get; set; }
+        public TripType? TripType { get; set; }
+        public DepartureCity? DepartureCity { get; set; }
     }
 }
